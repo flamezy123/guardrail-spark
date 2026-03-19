@@ -106,7 +106,7 @@ const Contact = () => {
                       Send via WhatsApp
                     </Button>
                     <p className="text-xs text-muted-foreground text-center">
-                      Or email us directly at info@pklogistics.com
+                      Or email us directly at pklogistics884@gmail.com
                     </p>
                   </form>
                 </CardContent>

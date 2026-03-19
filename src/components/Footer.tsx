@@ -40,15 +40,19 @@ const Footer = () => (
           <div className="space-y-3 text-sm text-secondary-foreground/70">
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-primary" />
-              <span>+1 (555) 123-4567</span>
+              <span>+1 (781) 720-9466</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Phone className="w-4 h-4 text-primary" />
+              <span>+237 671 929 005</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-primary" />
-              <span>info@pklogistics.com</span>
+              <span>pklogistics884@gmail.com</span>
             </div>
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 text-primary mt-0.5" />
-              <span>Houston, TX, USA<br />Douala, Cameroon</span>
+              <span>Douala &amp; Bamenda, Cameroon</span>
             </div>
           </div>
         </div>
