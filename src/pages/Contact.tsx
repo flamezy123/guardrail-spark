@@ -29,7 +29,7 @@ const Contact = () => {
     }
     // Open WhatsApp or email
     const text = `Hello PK Logistics!\n\nName: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\n\nMessage: ${form.message}`;
-    window.open(`https://wa.me/15551234567?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`https://wa.me/237671929005?text=${encodeURIComponent(text)}`, "_blank");
     toast.success("Opening WhatsApp to send your message!");
   };
 
