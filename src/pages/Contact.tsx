@@ -29,7 +29,7 @@ const Contact = () => {
     }
     // Open WhatsApp or email
     const text = `Hello PK Logistics!\n\nName: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\n\nMessage: ${form.message}`;
-    window.open(`https://wa.me/15551234567?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`https://wa.me/237671929005?text=${encodeURIComponent(text)}`, "_blank");
     toast.success("Opening WhatsApp to send your message!");
   };
 
@@ -54,9 +54,9 @@ const Contact = () => {
             {/* Contact Info */}
             <div className="md:col-span-2 space-y-6">
               {[
-                { icon: Phone, title: "Phone / WhatsApp", info: "+1 (555) 123-4567", sub: "+237 6XX XXX XXX" },
-                { icon: Mail, title: "Email", info: "info@pklogistics.com", sub: "support@pklogistics.com" },
-                { icon: MapPin, title: "Locations", info: "Houston, TX, USA", sub: "Douala, Cameroon" },
+                { icon: Phone, title: "Phone / WhatsApp", info: "+1 (781) 720-9466", sub: "+237 671 929 005" },
+                { icon: Mail, title: "Email", info: "pklogistics884@gmail.com", sub: "" },
+                { icon: MapPin, title: "Locations", info: "Douala, Cameroon", sub: "Bamenda, Cameroon" },
                 { icon: Clock, title: "Business Hours", info: "Mon–Sat: 8AM – 8PM", sub: "Sunday: 10AM – 4PM" },
               ].map((item, i) => (
                 <motion.div key={item.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}>
@@ -106,7 +106,7 @@ const Contact = () => {
                       Send via WhatsApp
                     </Button>
                     <p className="text-xs text-muted-foreground text-center">
-                      Or email us directly at info@pklogistics.com
+                      Or email us directly at pklogistics884@gmail.com
                     </p>
                   </form>
                 </CardContent>
